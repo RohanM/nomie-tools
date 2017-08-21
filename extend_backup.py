@@ -16,15 +16,23 @@ backup_filename = None
 output_filename = None
 trackers_filename = None
 
-opts, args = getopt.getopt(sys.argv[1:], "i:o:t:")
+opts, args = getopt.getopt(sys.argv[1:], "hi:o:t:")
 
 for opt, arg in opts:
+    if opt == '-h':
+        print "extend_backup.py -i <backup.json> -o <backup.new.json> -t <trackers.csv>"
+        sys.exit()
     if opt == '-i':
         backup_filename = arg
     elif opt == '-o':
         output_filename = arg
     elif opt == '-t':
         trackers_filename = arg
+
+if backup_filename == None or output_filename == None or trackers_filename == None:
+    print "extend_backup.py -i <backup.json> -o <backup.new.json> -t <trackers.csv>"
+    sys.exit()
+
 
 backup = NomieBackup(backup_filename)
 
