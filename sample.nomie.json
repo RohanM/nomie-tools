@@ -1,0 +1,45 @@
+{
+    "created": "2017-08-21T19:58:03+10:00",
+    "device": {
+        "id": 201885761,
+        "model": "SM-G900I",
+        "platform": "Android",
+        "serial": "5bef5857",
+        "version": "5.0"
+    },
+    "events": [],
+    "filename": "sample.nomie.json",
+    "meta": [
+        {
+            "_id": "hyperStorage-apps",
+            "_rev": "1-74d8bdbab89b059f60cbfdc09a8da7b3"
+        },
+        {
+            "_id": "hyperStorage-groups",
+            "_rev": "3-758074cd8aea173d8a1f15dc7e706598",
+            "groups": {
+                "Main": []
+            }
+        },
+        {
+            "_id": "hyperStorage-groups-meta",
+            "_rev": "1-64ac18c50f7ea95b1179c155ac0a3aa1"
+        },
+        {
+            "_id": "hyperStorage-nomie-meta",
+            "_rev": "2-64da4a0f361e57c4dd44c9970c072fea",
+            "user_data": {}
+        },
+        {
+            "_id": "hyperStorage-notifications",
+            "_rev": "1-fcdb39e2c5341f0e9eabffb355101a9a"
+        }
+    ],
+    "nomie": {
+        "build": "DEV",
+        "number": "2.0.0"
+    },
+    "notes": [],
+    "time": 1503309483492,
+    "trackers": []
+}
